@@ -5,7 +5,7 @@
 **核心直觉**：如果一句话的含义只发生了很小的变化（同义替换、词序微调、同一主题下的细化），那么它在向量空间中的位置也只应发生很小的变化。
 这就把“意义的相近”转成了“几何上的相近”（距离小、夹角小）。
 
-数学上，模型学到一个映射 ($$ f:\text{text}\to \mathbb{R}^d $$)，期望：
+数学上，模型学到一个映射 $$ f:\text{text}\to \mathbb{R}^d $$ ，期望：
 
 $$
 \text{semantic_similarity}(x,y)\uparrow ;\Rightarrow; |f(x)-f(y)|\downarrow ;\text{或}; \cos(f(x),f(y))\uparrow
