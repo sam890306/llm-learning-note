@@ -1,4 +1,4 @@
-# 🧱 Elasticsearch 的 Write-Ahead Log（Translog）学习笔记
+# Elasticsearch 的 Write-Ahead Log（Translog）学习笔记
 
 非常好，这是一个**高级系统设计问题**。我们可以从《Designing Data-Intensive Applications（DDIA）》的视角，系统地解析 **Elasticsearch 的 Write-Ahead Log（WAL）机制及其相关抽象组件**。
 
