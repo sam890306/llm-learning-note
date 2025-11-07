@@ -116,9 +116,7 @@ Analyzer → Tokenizer → TokenFilterChain → IndexWriter
 打分阶段用的是 **TF-IDF / BM25**：
 
 $$
-[
 score(q, d) = \sum_{t \in q} (idf_t * \frac{tf_{t,d}*(k+1)}{tf_{t,d} + k})
-]
 $$
 这就是 Lucene 的核心检索算法。
 
