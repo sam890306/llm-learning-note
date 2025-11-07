@@ -192,10 +192,3 @@ y = f_\theta(x)
 >
 > 训练阶段是绘制整张“语义地图”——计算巨大、数据海量、要反向传播；
 > 推理阶段只是沿着这张地图走一步——所以便宜得多。
-
----
-
-如果你愿意，我可以再画一张图：
-展示 embedding → transformer attention → feedforward → output 的信息流，
-以及训练 vs 推理的计算对比（forward / backward）。
-要我画一下吗？
