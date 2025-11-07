@@ -118,6 +118,7 @@ Analyzer → Tokenizer → TokenFilterChain → IndexWriter
 $$
 score(q, d) = \sum_{t \in q} (idf_t * \frac{tf_{t,d}*(k+1)}{tf_{t,d} + k})
 $$
+
 这就是 Lucene 的核心检索算法。
 
 ---
