@@ -196,5 +196,3 @@ DDIA 第3章讲的“**Log-Structured Storage Engine**”其实是 Lucene 的 se
 👉 “快速在大量非结构化文本中，找到与你问题语义最接近的内容。”
 
 ---
-
-是否希望我继续帮你画一张对比图，展示“倒排索引 vs 向量索引”的结构演化关系？（比如从 BM25 到 HNSW 到 RAG Pipeline）
