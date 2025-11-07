@@ -175,5 +175,3 @@ Lucene 代表了 DDIA 所说的“**日志结构存储（Log-Structured Storage 
 > Lucene 是“存储引擎”，Elasticsearch 是“分布式数据库系统”。
 
 ---
-
-是否希望我接着画出一张图，展示 **“Lucene + Elasticsearch 的层次关系”**（含 RAM buffer、segment、translog、replica 等）？
