@@ -1,0 +1,27 @@
+title: Your Knowledge Base
+description: Personal reference book
+# ✅ 使用 Just the Docs 官方主题（GitHub Pages 支持）
+remote_theme: just-the-docs/just-the-docs
+
+# ✅ 让所有 .md 页面自动应用默认布局（无需每个文件写 front matter）
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      # 可选：目录里按文件名自动排版；想手动排序再给单页加 nav_order
+      nav_order: 10
+
+# ✅ 搜索
+search_enabled: true
+
+# ✅ Markdown 引擎 + 数学渲染
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# ✅ 主题的可选设置（页宽、配色等，按需调）
+color_scheme: nil
+logo: # e.g. /assets/logo.png
