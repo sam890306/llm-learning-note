@@ -1,3 +1,6 @@
+# Lucene 学习笔记
+
+
 理解 **Lucene** 是理解 **Elasticsearch** 的关键，因为 Elasticsearch 其实只是 Lucene 的**分布式封装层 + REST API 外壳**。
 下面我们从原理、架构、与 DDIA（《Designing Data-Intensive Applications》）对应关系三个维度讲清楚。
 
