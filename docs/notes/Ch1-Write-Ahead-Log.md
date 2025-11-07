@@ -1,4 +1,4 @@
-# 🧱 Write-Ahead Log（WAL）学习笔记
+# Write-Ahead Log（WAL）学习笔记
 
 **Write-Ahead Log（WAL）** 是一种**保证数据一致性与持久性**的日志机制，常用于数据库系统（如 PostgreSQL、SQLite、MySQL InnoDB）和分布式系统（如 HDFS、Kafka）。其核心思想是：
 
