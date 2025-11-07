@@ -29,13 +29,17 @@ Embedding 检索（Dense Retrieval）的核心思想是：
 > “让语义相近的文本，映射到语义空间中的相近向量。”
 
 也就是说，模型通过训练学习一种函数：
+
 $$
 f(\text{text}) = \mathbf{v} \in \mathbb{R}^n
 $$
+
 使得：
+
 $$
 \text{similarity}(f(q), f(d)) = \cos(\theta)
 $$
+
 能近似语义相似度。
 
 于是：
@@ -92,16 +96,21 @@ $$
 ## 🧮 五、形式化地讲：Embedding = 从离散空间到连续流形的映射
 
 倒排索引的空间是：
+
 $$
 \mathcal{V}_{\text{symbolic}} = {t_1, t_2, \ldots, t_n}
 $$
+
 每个 token 独立无关。
 
 embedding 则学习一个连续映射：
+
 $$
 f: \mathcal{V}_{\text{symbolic}} \rightarrow \mathbb{R}^d
 $$
+
 使得：
+
 $$
 \forall t_i, t_j, \quad \text{if meaning}(t_i) \approx \text{meaning}(t_j) \Rightarrow ||f(t_i) - f(t_j)|| \text{ small}
 $$
