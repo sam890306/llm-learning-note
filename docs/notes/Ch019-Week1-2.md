@@ -182,8 +182,3 @@ gr.Interface(fn=chat, inputs="text", outputs="text").launch()
 | ✅ 可交互网页（可选）    | Gradio 界面可用              |
 
 ---
-
-如果你确认完成这一阶段，我接下来可以帮你进入 **Week 3–4：能训练（微调 LoRA）** 的实操路线——
-包括准备数据、选择 LoRA 层、控制显存占用、验证效果。
-
-是否继续？
